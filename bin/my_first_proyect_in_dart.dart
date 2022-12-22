@@ -9,4 +9,20 @@ void main(List<String> arguments) {
   print('Hello world: ${my_first_proyect_in_dart.calculate()}!');
   print('<3 ' + prueba);
   print(prueba2.runtimeType);
+
+  // tipos de variables
+// String tendra problemas a la hora de poner un numero
+  String nombre = 'Pepito';
+  var name = 'Luis';
+
+  int edad = 29;
+  double estatura = 1.60;
+
+  bool esBuenProfesor = false;
+
+  print(nombre);
+  print(name);
+  print(edad);
+  print(esBuenProfesor);
+  print(estatura);
 }
