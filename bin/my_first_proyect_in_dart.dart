@@ -54,4 +54,7 @@ tres
   String refran = "en abril aguas mill";
   print(refran.contains('aguas'));
   print(refran.contains('aguaadsa'));
+  // divide el string, divide la cadena de caracteres
+  String email = 'contacto@gmail.cl';
+  print(email.split('@'));
 }
