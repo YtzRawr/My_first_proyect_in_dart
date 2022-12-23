@@ -25,4 +25,15 @@ void main(List<String> arguments) {
   print(edad);
   print(esBuenProfesor);
   print(estatura);
+
+  String uno = "uno";
+  String dos = "dos";
+  String tres = '''
+Uno
+dos
+tres
+
+''';
+
+  print(tres);
 }
