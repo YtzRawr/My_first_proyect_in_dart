@@ -56,5 +56,7 @@ tres
   print(refran.contains('aguaadsa'));
   // divide el string, divide la cadena de caracteres
   String email = 'contacto@gmail.cl';
-  print(email.split('@'));
+  print("EL dominio de la direccion es " + email.split('@')[1]);
+  // si una cadena empieza con unos caracteres especificos
+  print(refran.startsWith('mil'));
 }
