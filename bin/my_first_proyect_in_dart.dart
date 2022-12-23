@@ -47,4 +47,9 @@ tres
 
   String pesoString = peso.toString();
   print(pesoString);
+// con dos decimales despues de la coma
+  String pesoString1 = peso.toStringAsFixed(2);
+  print(pesoString1);
+
+  String refran = "en abril aguas mill";
 }
