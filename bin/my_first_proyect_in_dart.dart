@@ -60,4 +60,8 @@ tres
   // si una cadena empieza con unos caracteres especificos
   print(refran.startsWith('mil'));
   print(email.indexOf('@'));
+  // extracion del caracter 8 en adelante
+  print(email.substring(8));
+  print(email.substring(8 + 1));
+  print(email.substring(8 + 1, email.indexOf('.')));
 }
