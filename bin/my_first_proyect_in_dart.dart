@@ -50,6 +50,8 @@ tres
 // con dos decimales despues de la coma
   String pesoString1 = peso.toStringAsFixed(2);
   print(pesoString1);
-
+// true or false si es que hay o uno un valor dentro de la frase
   String refran = "en abril aguas mill";
+  print(refran.contains('aguas'));
+  print(refran.contains('aguaadsa'));
 }
