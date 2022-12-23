@@ -59,4 +59,5 @@ tres
   print("EL dominio de la direccion es " + email.split('@')[1]);
   // si una cadena empieza con unos caracteres especificos
   print(refran.startsWith('mil'));
+  print(email.indexOf('@'));
 }
