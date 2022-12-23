@@ -35,5 +35,16 @@ tres
 
 ''';
 
+  int cuatro = 4;
   print(tres);
+  print(cuatro.runtimeType);
+  String cuatroString = cuatro.toString();
+  print(cuatroString.runtimeType);
+  print(cuatroString);
+
+// conversion de double a string
+  double peso = 62.53781;
+
+  String pesoString = peso.toString();
+  print(pesoString);
 }
