@@ -64,4 +64,30 @@ tres
   print(email.substring(8));
   print(email.substring(8 + 1));
   print(email.substring(8 + 1, email.indexOf('.')));
+  // double
+  double numeroDouble = 1;
+  print(numeroDouble);
+  // boolean
+  bool esVerdad;
+
+  esVerdad = 2 == (1 + 1);
+  final esVerdad2 = 'hola' == 'Hola';
+  print(esVerdad2);
+
+  //concatenacion
+
+  String hola = 'hola';
+  String mundo = 'mundo';
+
+  print('$hola ' + '$mundo');
+
+  String queHaces = 'Aprendiendo Dart';
+  int anio = 2023;
+
+  print('$queHaces ' + '$anio');
+
+  String estasBien = 'Estas bien?';
+  bool si = true;
+
+  print('$estasBien ' + '$si');
 }
