@@ -125,4 +125,21 @@ tres
   print(segundaLista.reversed);
 
   // mapas
+
+  var primerMapa = {
+    'nombre': 'Matias',
+    'edad': 20,
+    'email': 'matiaspizarro133@gmail.com',
+    'buenAlumno': true,
+  };
+  print(primerMapa);
+  // add info
+  primerMapa['ciudad'] = 'Santiago';
+  // modificamos informacion
+  primerMapa['buenAlumno'] = false;
+  print(primerMapa);
+  print(primerMapa.length);
+
+  var lista = ['luis', 'matias', 'ignacio'];
+  print(lista.asMap());
 }
