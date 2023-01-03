@@ -90,4 +90,39 @@ tres
   bool si = true;
 
   print('$estasBien ' + '$si');
+
+  // listas
+  var primeraLista = [10, 14];
+  var segundaLista = ['Matias', 'Ignacio'];
+  // lista de lista
+  var listaDeLista = [
+    [10, 15],
+    segundaLista,
+    [12.5, 45.4]
+  ];
+  var miNombre = segundaLista[0];
+  // DEVOLVERA un N entero
+  var tamanio = listaDeLista.length;
+  // ubicacion
+  var accediendo = listaDeLista[1][0];
+  print(accediendo);
+  print(miNombre);
+  print(primeraLista);
+  print(segundaLista);
+  print(tamanio);
+
+  var listaFija = List.filled(4, '', growable: false);
+  listaFija[0] = 'Matias';
+  listaFija[1] = segundaLista[1];
+
+  // listaFija.add('Hello chanchito');
+  segundaLista.add('HOLA');
+  print(segundaLista);
+  print(segundaLista.length);
+  print(segundaLista.last);
+  print(listaFija);
+  print(segundaLista[segundaLista.length - 1]);
+  print(segundaLista.reversed);
+
+  // mapas
 }
