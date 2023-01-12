@@ -147,5 +147,8 @@ tres
   int cien = int.parse(cienString);
   int doscientos = 200;
   int suma = cien + doscientos;
-  print(suma);
+  print('la suma es:' + suma.toString());
+  String a = 'uno';
+  String b = 'dos';
+  print(a + b);
 }
