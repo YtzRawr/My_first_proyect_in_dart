@@ -1,5 +1,6 @@
 import 'package:my_first_proyect_in_dart/my_first_proyect_in_dart.dart'
     as my_first_proyect_in_dart;
+import 'package:test/expect.dart';
 
 enum EstadosUsuario { notlogeed, logged, logging, registering }
 
@@ -169,4 +170,29 @@ tres
   // Aqui pasa algo y se loguea
   // el usuario esta logueado
   estadoActual = EstadosUsuario.logged;
+
+  // operadores aritmeticos
+
+  int a2 = 10;
+  int b2 = 20;
+  // suma
+  print(a2 + b2);
+  // resta
+  print(a2 - b2);
+  // multiplicacion
+  print(a2 * b2);
+  // division --> puede convertir dos enteros en un double (decimal)
+  print(a2 / b2);
+  // incremento y decremento
+  print(a2);
+  a2++;
+  print(a2);
+  a2--;
+  print(a2);
+  // devuelve el entero de una division
+  print(b2 ~/ a2);
+  // obtener el resto de una division
+  print(b2 % a2);
+  // cambiar el signo
+  print(-a2);
 }
