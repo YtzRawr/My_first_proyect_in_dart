@@ -142,4 +142,10 @@ tres
 
   var lista = ['luis', 'matias', 'ignacio'];
   print(lista.asMap());
+
+  String cienString = '100';
+  int cien = int.parse(cienString);
+  int doscientos = 200;
+  int suma = cien + doscientos;
+  print(suma);
 }
