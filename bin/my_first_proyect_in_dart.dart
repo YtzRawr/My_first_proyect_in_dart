@@ -151,4 +151,8 @@ tres
   String a = 'uno';
   String b = 'dos';
   print(a + b);
+
+  double numerosDeciamles = 100.255;
+  String doubleString = numerosDeciamles.toStringAsFixed(3);
+  print('El numero double en string es:' + doubleString);
 }
