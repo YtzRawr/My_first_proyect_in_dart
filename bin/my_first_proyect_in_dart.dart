@@ -1,6 +1,8 @@
 import 'package:my_first_proyect_in_dart/my_first_proyect_in_dart.dart'
     as my_first_proyect_in_dart;
 
+enum EstadosUsuario { notlogeed, logged, logging, registering }
+
 void main(List<String> arguments) {
   // var prueba
   var prueba = 'Chanchito feliz';
@@ -143,6 +145,7 @@ tres
   var lista = ['luis', 'matias', 'ignacio'];
   print(lista.asMap());
 
+// Conversiones
   String cienString = '100';
   int cien = int.parse(cienString);
   int doscientos = 200;
@@ -158,4 +161,6 @@ tres
 
   var miSet = <int>{doscientos, int.parse(cienString)};
   print(miSet);
+
+  // Enums
 }
