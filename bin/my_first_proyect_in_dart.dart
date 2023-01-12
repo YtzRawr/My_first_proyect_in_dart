@@ -155,4 +155,7 @@ tres
   double numerosDeciamles = 100.255;
   String doubleString = numerosDeciamles.toStringAsFixed(3);
   print('El numero double en string es:' + doubleString);
+
+  var miSet = <int>{doscientos, int.parse(cienString)};
+  print(miSet);
 }
