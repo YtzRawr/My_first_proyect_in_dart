@@ -163,4 +163,10 @@ tres
   print(miSet);
 
   // Enums
+  // usuario no logueado
+  var estadoActual = EstadosUsuario.notlogeed;
+  print(estadoActual);
+  // Aqui pasa algo y se loguea
+  // el usuario esta logueado
+  estadoActual = EstadosUsuario.logged;
 }
