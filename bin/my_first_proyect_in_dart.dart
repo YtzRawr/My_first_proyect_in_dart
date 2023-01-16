@@ -195,4 +195,21 @@ tres
   print(b2 % a2);
   // cambiar el signo
   print(-a2);
+
+  // operadores relacionales
+  int a3 = 10;
+  int b3 = 5;
+  int c3 = 10;
+  var mayor = a3 > b3;
+  var menor = a3 < b3;
+  var mayorIgual = a3 >= b3;
+  var menorIgual = a3 <= b3;
+  var menorIgual2 = a3 >= c3;
+  var mayorIgual2 = a3 <= c3;
+  print(mayor);
+  print(menor);
+  print(mayorIgual);
+  print(menorIgual);
+  print(mayorIgual2);
+  print(menorIgual2);
 }
