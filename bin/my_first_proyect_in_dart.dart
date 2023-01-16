@@ -220,4 +220,23 @@ tres
   var diferente = a4 != b4;
   print(igual);
   print(diferente);
+
+  // operadores de asignacion
+
+  int a5 = 10;
+  int b5 = 25;
+  var c5;
+  // evalua si la variable c es nula y se le asigna a5
+  c5 ??= 1;
+  print(c5);
+  // c se le asgina el valor de a5
+  // el valor que tiene c5 mas el valor de a5
+  c5 += a5;
+  print(c5);
+  c5 -= a5;
+  print(c5);
+  c5 *= a5;
+  print(c5);
+  c5 /= a5;
+  print(c5);
 }
