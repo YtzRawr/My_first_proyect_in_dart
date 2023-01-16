@@ -212,4 +212,12 @@ tres
   print(menorIgual);
   print(mayorIgual2);
   print(menorIgual2);
+
+  // operadores de igualdad
+  int a4 = 10;
+  int b4 = 25;
+  var igual = a4 == b4;
+  var diferente = a4 != b4;
+  print(igual);
+  print(diferente);
 }
