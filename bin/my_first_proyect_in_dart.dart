@@ -239,4 +239,21 @@ tres
   print(c5);
   c5 /= a5;
   print(c5);
+  // operadores logicos
+  // !
+  // or ||
+  // and &&
+  bool soyBuenAlumno2 = false;
+  print(!soyBuenAlumno2);
+  var a6 = 10;
+  var b6 = 25;
+  var a7 = 10;
+  var b7 = 25;
+  bool esVerdad3 = a6 > 20 || b6 > 50;
+  prints(esVerdad3);
+
+  bool esVerdad4 = a7 > 20 && b7 > 50;
+  print(esVerdad4);
+  bool esVerdad5 = a7 > 1 && b7 > 50;
+  print(esVerdad5);
 }
